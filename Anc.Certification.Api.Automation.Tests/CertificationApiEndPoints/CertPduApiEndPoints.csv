@@ -1,0 +1,33 @@
+﻿ScenarioName,EndPoints
+Get PDU allotments for PDU claim slice,/api/claims/{pduClaimId}/claimslices/{pduClaimSliceId}/Allotments
+Get PDU allotment by Id,/api/claims/{pduClaimId}/claimslices/{pduClaimSliceId}/Allotments/{id}
+Get a PDU claim queue by Id,/api/ClaimQueue/{id}
+Get PDU claim queue entries by Conf Group Id,/api/ClaimQueue/conf/group/{confGroupId}
+Get PDU claim queue entries by Group Id,/api/ClaimQueue/group/{groupId}
+Get PDU claim queue entries for a given person Id,/api/ClaimQueue/person/{personId}
+Get PDU claim queue group by Id,/api/ClaimQueueGroups/{id}
+Get PDU claim queue group summary by Id,/api/ClaimQueueGroups/{id}/summary
+Get PDU claim queue conf group by Id,/api/ClaimQueueGroups/conf/{id}
+Get PDU claim queue conf group summary by Id,/api/ClaimQueueGroups/conf/{id}/summary
+Get a PDU Claim review by Id,/api/ClaimReview/{id}
+Get PDU Claim review rules,/api/ClaimReview/rules
+Get a PDU Claim review rule by Id,/api/ClaimReview/rules/{id}
+Get PDU Claim review rule types,/api/ClaimReview/rule-types
+Get PDU Claim reviews by PDU Claim Id,/api/claims/{pduClaimId}/reviews
+Get a PDU claim by Id,/api/Claims/{id}
+Get is valid transition event for a given PDU claim,/api/Claims/{id}/is-valid-event/{pduClaimEvent}
+Get valid transition events for a PDU claim by Id,/api/Claims/{id}/valid-events
+Get PDU claims for a given person Id,/api/Claims/person/{personId}
+Get PDU claims for a given person and certification type,/api/Claims/person/{personId}/{certificationType}
+Get PDU claim reason codes,/api/Claims/reason-codes
+Get PDU claim reason code by Id,/api/Claims/reason-codes/{id}
+Get PDU claim reason codes by PDU claim status,/api/Claims/reason-codes/status/{pduClaimStatus}
+Get a PDU claim by Queue Id,/queue/{queueId}
+Get PDU claim slices for a given PDU claim Id,/api/claims/{pduClaimId}/ClaimSlices
+Get PDU claim slice by Id,/api/claims/{pduClaimId}/ClaimSlices/{id}
+Get whether a given cycle has met requirements,/api/PDUCCRCycle/{cycleId}/cycle-met-requirements
+Get PDU Summary for a given cycle,/api/PDUCCRCycle/{cycleId}/pdu-summary
+Get cycle summaries for certification Ids,/api/PDUCCRCycle/get-cycle-summaries
+Get a provider by Id,/api/Providers/{id}
+Get a provider by course Id,/api/Providers/course/{courseId}
+Get a Provider by number,/api/Providers/number/{providerNumber}

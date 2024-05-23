@@ -1,0 +1,2 @@
+﻿ScenarioName,EndPoints
+Get and verify exam details,/certification/api/Exams/5006051

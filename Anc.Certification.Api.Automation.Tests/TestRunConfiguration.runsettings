@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<LoggerRunSettings>
+		<Loggers>
+			<Logger friendlyName="console" enabled="True">
+				<Configuration>
+					<Verbosity>quiet</Verbosity>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="trx" enabled="True">
+				<Configuration>
+					<LogFileName>TestResult.trx</LogFileName>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="html" enabled="True">
+				<Configuration>
+					<LogFileName>TestResult.html</LogFileName>
+				</Configuration>
+			</Logger>
+			<Logger friendlyName="blame" enabled="True" />
+		</Loggers>
+	</LoggerRunSettings>
+	<MSTest>
+		<MapInconclusiveToFailed>True</MapInconclusiveToFailed>
+		<DeploymentEnabled>False</DeploymentEnabled>
+		<Parallelize>
+			<Workers>5</Workers>
+			<Scope>ClassLevel</Scope>
+		</Parallelize>
+	</MSTest>
+</RunSettings>

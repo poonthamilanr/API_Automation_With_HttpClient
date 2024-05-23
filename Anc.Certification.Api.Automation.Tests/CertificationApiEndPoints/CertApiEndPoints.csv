@@ -1,0 +1,2 @@
+﻿ScenarioName,EndPoints
+Get cycles for a given certification Id,/api/certifications/1431797/CCRCycles
